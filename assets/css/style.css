@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Poppins",sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+html, body{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background: linear-gradient(to bottom left, #ff9aa2, #ffb7b2, #ffdac1, #e2f0cb, #b5ead7, #c7ceea);
+    height: 100vh;
+}
+
+
+.content{
+    width: 1170px;
+    max-width: calc(100vw - 500px);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.brand_name{
+    font-family: "Palanquin Dark", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 20px auto 0px;
+    
+}
+
+.content h1{
+    font-family: "Palanquin Dark", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 95px;
+    margin: 140px auto 0px;
+}
+
+.des{
+    font-family: "Palanquin Dark", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 21px;
+    font-style: italic;
+    margin: 10px auto 90px;
+}
+
+.btn{
+    width: 90px;
+    height: 30px;
+    background-color: #353535;
+    color: white;
+    margin: 6px auto 0px;
+    padding: 15px 40px;
+    border-radius: 25px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(255, 251, 251);
+    color: #353535;
+}
+
+
